@@ -1,6 +1,7 @@
 #chat-screen #status-bar,
 .alt-header {
   background-color: #abc1d1;
+  z-index: 2;
 }
 #chat-screen {
   background-color: #abc1d1;
@@ -60,6 +61,7 @@
   font-size: 13px;
   margin-bottom: 8px;
   display: block;
+  z-index: 99;
 }
 
 .message__bubble {
@@ -162,4 +164,8 @@
 
 .reply:focus-within {
   transform: translateY(80px);
+}
+
+.message-row__content {
+  z-index: 0;
 }
