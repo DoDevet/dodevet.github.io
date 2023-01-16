@@ -1,0 +1,26 @@
+.icon-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-bottom: 24px;
+}
+.icon-row__more {
+  padding: 50px 0px;
+  display: grid;
+  width: 100%;
+  grid-template-columns: repeat(4, 1fr);
+  padding-bottom: 24px;
+  gap: 30px;
+  border-bottom: var(--main-border);
+}
+.icon-row__icon {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.icon-row__icon > i {
+  font-size: 35px;
+}
+.icon-row__icon span {
+  margin-top: 18px;
+}

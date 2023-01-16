@@ -1,0 +1,51 @@
+@import url("https://fonts.googleapis.com/css2?family=Nunito:wght@400;500;600;700;800;900&display=swap");
+@import "reset.css";
+@import "variables.css";
+/* Components */
+@import "components/badge_place.css";
+@import "components/status-bar.css";
+@import "components/nav-bar.css";
+@import "components/screen-header.css";
+@import "components/alt-screen-header.css";
+@import "components/user-component.css";
+@import "components/badge.css";
+@import "components/chat__margin.css";
+@import "components/icon-row.css";
+@import "components/no-mobile.css";
+/* Screens */
+@import "screens/login.css";
+@import "screens/friends.css";
+@import "screens/find.css";
+@import "screens/more.css";
+@import "screens/settings.css";
+@import "screens/chat.css";
+body {
+  font-family: "Nunito", sans-serif;
+  padding-top: 17px;
+  padding-bottom: 67px;
+}
+
+.welcome-header {
+  display: flex;
+  flex-direction: column;
+  margin: 90px 0px;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+}
+.welcome-header__title {
+  font-weight: 600;
+  font-size: 24px;
+  margin-bottom: 40px;
+}
+.welcome-header__text {
+  width: 60%;
+  opacity: 0.7;
+  font-size: 17px;
+  font-weight: 600;
+  color: var(--grey);
+}
+
+.main-screen {
+  padding: 0px var(--horizontal-space);
+}

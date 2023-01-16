@@ -1,0 +1,26 @@
+.alt-header {
+  display: flex;
+  width: 100%;
+  padding: 0px 10px;
+  position: fixed;
+  box-sizing: border-box;
+  margin-top: 6px;
+  font-size: 23px;
+  align-items: center;
+}
+
+.alt-header__column {
+  width: 33%;
+  display: flex;
+}
+.alt-header__column:nth-child(2) {
+  justify-content: center;
+  font-weight: 600;
+  font-size: 20px;
+}
+.alt-header__column:nth-child(2) {
+  font-weight: 600;
+}
+.alt-header__column:last-child {
+  justify-content: flex-end;
+}
